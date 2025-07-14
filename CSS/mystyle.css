@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.Center-Bluebg {
+  background-color: #195774;
+  text-align: center;
+  color: white;
+}
+.Center-Bluebg h1 {
+  padding: 20px 0;
+}
+.Center-Bluebg h2 {
+  padding: 40px 0;
+}
+.missing-puppy {
+  display: none;
+}
+.puppies {
+  width: 80%;
+  margin: 0 auto;
+}
+.puppies div {
+  margin: 20px;
+}
+.more-puppies {
+  text-align: center;
+}
+/* ***************************** */
+/* Media Query (First break point)*/
+/* ****************************** */
+@media (min-width: 768px) {
+  .missing-puppy {
+    background-color: #ee4d65;
+    display: block;
+    width: 30%;
+    width: 310px;
+    height: 210px;
+    text-align: center;
+  }
+  .missing-puppy p {
+    padding: 20%;
+    font-size: 2vw;
+    font-weight: 500;
+  }
+  .puppies {
+    display: flex;
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+/* @media(min-width:960px){
+
+} */
